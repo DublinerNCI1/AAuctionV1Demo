@@ -4,7 +4,7 @@ AAuctionV1Demo
 Final Auction Version
 
 Today, on the day of project presentation, we are uploading our MotorBid ASP.NET.MVC3 group project along with 
-all documentation to this newly created repositories.
+all documentation to this newly created repository.
 
 As it was stated previously by email, our old repository with extension ..autoauction.git became unmanageable
 due to conflicting references, which resulted based on updates made by both of us, such as commmiting MvcAutoAuction
