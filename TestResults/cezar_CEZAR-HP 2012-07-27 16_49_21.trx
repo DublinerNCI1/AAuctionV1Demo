@@ -1,0 +1,73 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="7fe3c143-5d51-41aa-9a63-d3687fef194e" name="cezar@CEZAR-HP 2012-07-27 16:49:21" runUser="cezar-HP\cezar" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Local" id="3740fb54-692b-4acc-b3b6-d647341643d6">
+    <Description>These are default test settings for a local test run.</Description>
+    <Deployment enabled="false" runDeploymentRoot="cezar_CEZAR-HP 2012-07-27 16_49_21">
+      <DeploymentItem filename="C:\Users\cezar\MvcAA\MvcAutoAuction1\packages\EntityFramework.4.1.10331.0\lib\EntityFramework.dll" />
+      <DeploymentItem filename="C:\Users\cezar\MvcAA\MvcAutoAuction1\MvcAutoAuction\bin\MvcAutoAuction.dll" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2012-07-27T16:49:21.1362953+01:00" queuing="2012-07-27T16:49:21.2333008+01:00" start="2012-07-27T16:49:21.2493017+01:00" finish="2012-07-27T16:49:22.8893956+01:00" />
+  <ResultSummary outcome="Failed">
+    <Counters total="3" executed="3" passed="2" error="0" failed="1" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="HomeDALConstructorTest" storage="c:\users\cezar\mvcaa\mvcautoauction1\mvcautoauction.tests\bin\debug\mvcautoauction.tests.dll" id="59059c7f-cf7b-ff78-05ce-474a4dc7e7fc">
+      <Execution id="2ebd41e7-5fe5-46e2-8a78-4282fdb5c628" />
+      <TestMethod codeBase="C:/Users/cezar/MvcAA/MvcAutoAuction1/MvcAutoAuction.Tests/bin/Debug/MvcAutoAuction.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="MvcAutoAuction.Tests.HomeDALTest, MvcAutoAuction.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="HomeDALConstructorTest" />
+    </UnitTest>
+    <UnitTest name="BiddingForm" storage="c:\users\cezar\mvcaa\mvcautoauction1\mvcautoauction.tests\bin\debug\mvcautoauction.tests.dll" id="b8c21f3d-abff-3ddb-717f-b2a6949fc9d0">
+      <Execution id="45a191f5-24d3-4f22-ab73-24787c784553" />
+      <TestMethod codeBase="C:/Users/cezar/MvcAA/MvcAutoAuction1/MvcAutoAuction.Tests/bin/Debug/MvcAutoAuction.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="MvcAutoAuction.Tests.BidControllerTest, MvcAutoAuction.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="BiddingForm" />
+    </UnitTest>
+    <UnitTest name="BrandsToListTest" storage="c:\users\cezar\mvcaa\mvcautoauction1\mvcautoauction.tests\bin\debug\mvcautoauction.tests.dll" id="9ab77cdf-02c6-9c01-ea85-6fdbb047ef54">
+      <Execution id="7efa089c-d198-4c4b-a933-31716ce4445a" />
+      <TestMethod codeBase="C:/Users/cezar/MvcAA/MvcAutoAuction1/MvcAutoAuction.Tests/bin/Debug/MvcAutoAuction.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="MvcAutoAuction.Tests.CatalogDALTest, MvcAutoAuction.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="BrandsToListTest" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="59059c7f-cf7b-ff78-05ce-474a4dc7e7fc" executionId="2ebd41e7-5fe5-46e2-8a78-4282fdb5c628" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="9ab77cdf-02c6-9c01-ea85-6fdbb047ef54" executionId="7efa089c-d198-4c4b-a933-31716ce4445a" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="b8c21f3d-abff-3ddb-717f-b2a6949fc9d0" executionId="45a191f5-24d3-4f22-ab73-24787c784553" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="2ebd41e7-5fe5-46e2-8a78-4282fdb5c628" testId="59059c7f-cf7b-ff78-05ce-474a4dc7e7fc" testName="HomeDALConstructorTest" computerName="CEZAR-HP" duration="00:00:00.0729287" startTime="2012-07-27T16:49:21.3413070+01:00" endTime="2012-07-27T16:49:21.7253290+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="2ebd41e7-5fe5-46e2-8a78-4282fdb5c628">
+    </UnitTestResult>
+    <UnitTestResult executionId="7efa089c-d198-4c4b-a933-31716ce4445a" testId="9ab77cdf-02c6-9c01-ea85-6fdbb047ef54" testName="BrandsToListTest" computerName="CEZAR-HP" duration="00:00:01.1076148" startTime="2012-07-27T16:49:21.7303293+01:00" endTime="2012-07-27T16:49:22.8433929+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="7efa089c-d198-4c4b-a933-31716ce4445a">
+      <Output>
+        <ErrorInfo>
+          <Message>Test method MvcAutoAuction.Tests.CatalogDALTest.BrandsToListTest threw exception: 
+System.InvalidOperationException: The model backing the 'AutoAuctionEntities' context has changed since the database was created. Either manually delete/update the database, or call Database.SetInitializer with an IDatabaseInitializer instance. For example, the DropCreateDatabaseIfModelChanges strategy will automatically delete and recreate the database, and optionally seed it with new data.</Message>
+          <StackTrace>    at System.Data.Entity.CreateDatabaseIfNotExists`1.InitializeDatabase(TContext context)
+   at System.Data.Entity.Internal.InternalContext.&lt;&gt;c__DisplayClass5.&lt;PerformDatabaseInitialization&gt;b__3()
+   at System.Data.Entity.Internal.InternalContext.PerformInitializationAction(Action action)
+   at System.Data.Entity.Internal.InternalContext.PerformDatabaseInitialization()
+   at System.Data.Entity.Internal.LazyInternalContext.&lt;InitializeDatabase&gt;b__4(InternalContext c)
+   at System.Data.Entity.Internal.RetryAction`1.PerformAction(TInput input)
+   at System.Data.Entity.Internal.LazyInternalContext.InitializeDatabaseAction(Action`1 action)
+   at System.Data.Entity.Internal.LazyInternalContext.InitializeDatabase()
+   at System.Data.Entity.Internal.InternalContext.GetEntitySetAndBaseTypeForType(Type entityType)
+   at System.Data.Entity.Internal.Linq.InternalSet`1.Initialize()
+   at System.Data.Entity.Internal.Linq.InternalSet`1.GetEnumerator()
+   at System.Data.Entity.Infrastructure.DbQuery`1.System.Collections.Generic.IEnumerable&lt;TResult&gt;.GetEnumerator()
+   at System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at MvcAutoAuction.dal.CatalogDAL.BrandsToList() in C:\Users\cezar\MvcAA\MvcAutoAuction1\MvcAutoAuction\dal\Catalogdal.cs:line 18
+   at MvcAutoAuction.Tests.CatalogDALTest.BrandsToListTest() in C:\Users\cezar\MvcAA\MvcAutoAuction1\MvcAutoAuction.Tests\CatalogDALTest.cs:line 85
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="45a191f5-24d3-4f22-ab73-24787c784553" testId="b8c21f3d-abff-3ddb-717f-b2a6949fc9d0" testName="BiddingForm" computerName="CEZAR-HP" duration="00:00:00.0028698" startTime="2012-07-27T16:49:22.8453930+01:00" endTime="2012-07-27T16:49:22.8643941+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="45a191f5-24d3-4f22-ab73-24787c784553">
+    </UnitTestResult>
+  </Results>
+</TestRun>

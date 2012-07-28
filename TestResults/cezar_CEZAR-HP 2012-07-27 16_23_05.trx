@@ -1,0 +1,61 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="e959bd4c-a84c-4507-bec9-ef4d220de1f9" name="cezar@CEZAR-HP 2012-07-27 16:23:05" runUser="cezar-HP\cezar" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Local" id="3740fb54-692b-4acc-b3b6-d647341643d6">
+    <Description>These are default test settings for a local test run.</Description>
+    <Deployment enabled="false" runDeploymentRoot="cezar_CEZAR-HP 2012-07-27 16_23_05">
+      <DeploymentItem filename="C:\Users\cezar\MvcAA\MvcAutoAuction1\packages\EntityFramework.4.1.10331.0\lib\EntityFramework.dll" />
+      <DeploymentItem filename="C:\Users\cezar\MvcAA\MvcAutoAuction1\MvcAutoAuction\bin\MvcAutoAuction.dll" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2012-07-27T16:23:05.9331988+01:00" queuing="2012-07-27T16:23:06.3152207+01:00" start="2012-07-27T16:23:06.3682237+01:00" finish="2012-07-27T16:23:32.7287314+01:00" />
+  <ResultSummary outcome="Failed">
+    <Counters total="3" executed="3" passed="2" error="0" failed="1" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="BrowseTest" storage="c:\users\cezar\mvcaa\mvcautoauction1\mvcautoauction.tests\bin\debug\mvcautoauction.tests.dll" id="c11b2c8a-7989-b04f-be81-63164dedf878">
+      <Execution id="afafb512-b099-4a36-9856-456ba1c535e7" />
+      <TestMethod codeBase="C:/Users/cezar/MvcAA/MvcAutoAuction1/MvcAutoAuction.Tests/bin/Debug/MvcAutoAuction.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="MvcAutoAuction.Tests.CatalogControllerTest, MvcAutoAuction.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="BrowseTest" />
+      <AspNet webSiteUrl="http://localhost:51851/">
+        <Host pathToWebApp="C:\Users\cezar\MvcAA\MvcAutoAuction1\MvcAutoAuction" webAppRoot="/" />
+      </AspNet>
+    </UnitTest>
+    <UnitTest name="BiddingForm" storage="c:\users\cezar\mvcaa\mvcautoauction1\mvcautoauction.tests\bin\debug\mvcautoauction.tests.dll" id="b8c21f3d-abff-3ddb-717f-b2a6949fc9d0">
+      <Execution id="ffba32b7-6bdd-4927-94e6-9cd11ec1ec2c" />
+      <TestMethod codeBase="C:/Users/cezar/MvcAA/MvcAutoAuction1/MvcAutoAuction.Tests/bin/Debug/MvcAutoAuction.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="MvcAutoAuction.Tests.BidControllerTest, MvcAutoAuction.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="BiddingForm" />
+    </UnitTest>
+    <UnitTest name="HomeDALConstructorTest" storage="c:\users\cezar\mvcaa\mvcautoauction1\mvcautoauction.tests\bin\debug\mvcautoauction.tests.dll" id="59059c7f-cf7b-ff78-05ce-474a4dc7e7fc">
+      <Execution id="f508cddc-b638-4c8c-9cd7-09a448547835" />
+      <TestMethod codeBase="C:/Users/cezar/MvcAA/MvcAutoAuction1/MvcAutoAuction.Tests/bin/Debug/MvcAutoAuction.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="MvcAutoAuction.Tests.HomeDALTest, MvcAutoAuction.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="HomeDALConstructorTest" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="59059c7f-cf7b-ff78-05ce-474a4dc7e7fc" executionId="f508cddc-b638-4c8c-9cd7-09a448547835" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="b8c21f3d-abff-3ddb-717f-b2a6949fc9d0" executionId="ffba32b7-6bdd-4927-94e6-9cd11ec1ec2c" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="c11b2c8a-7989-b04f-be81-63164dedf878" executionId="afafb512-b099-4a36-9856-456ba1c535e7" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="f508cddc-b638-4c8c-9cd7-09a448547835" testId="59059c7f-cf7b-ff78-05ce-474a4dc7e7fc" testName="HomeDALConstructorTest" computerName="CEZAR-HP" duration="00:00:00.0921938" startTime="2012-07-27T16:23:06.4122262+01:00" endTime="2012-07-27T16:23:06.8772528+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="f508cddc-b638-4c8c-9cd7-09a448547835">
+    </UnitTestResult>
+    <UnitTestResult executionId="ffba32b7-6bdd-4927-94e6-9cd11ec1ec2c" testId="b8c21f3d-abff-3ddb-717f-b2a6949fc9d0" testName="BiddingForm" computerName="CEZAR-HP" duration="00:00:00.0288545" startTime="2012-07-27T16:23:06.8832532+01:00" endTime="2012-07-27T16:23:06.9172551+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="ffba32b7-6bdd-4927-94e6-9cd11ec1ec2c">
+    </UnitTestResult>
+    <UnitTestResult executionId="afafb512-b099-4a36-9856-456ba1c535e7" testId="c11b2c8a-7989-b04f-be81-63164dedf878" testName="BrowseTest" computerName="CEZAR-HP" startTime="2012-07-27T16:23:07.0962653+01:00" endTime="2012-07-27T16:23:32.5867233+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="afafb512-b099-4a36-9856-456ba1c535e7">
+      <Output>
+        <ErrorInfo>
+          <Message>The Web request 'http://localhost:51851/' completed successfully without running the test. This can occur when configuring the Web application for testing fails (an ASP.NET server error occurs when processing the request), or when no ASP.NET page is executed (the URL may point to an HTML page, a Web service, or a directory listing). Running tests in ASP.NET requires the URL to resolve to an ASP.NET page and for the page to execute properly up to the Load event. The response from the request is stored in the file 'WebRequestResponse_BrowseTest.html' with the test results; typically this file can be opened with a Web browser to view its contents.</Message>
+        </ErrorInfo>
+      </Output>
+      <ResultFiles>
+        <ResultFile path="CEZAR-HP\WebRequestResponse_BrowseTest.html" />
+      </ResultFiles>
+    </UnitTestResult>
+  </Results>
+</TestRun>

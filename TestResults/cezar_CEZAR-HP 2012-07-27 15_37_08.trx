@@ -1,0 +1,54 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="06b0eb82-436b-462f-a607-43f0d488ff29" name="cezar@CEZAR-HP 2012-07-27 15:37:08" runUser="cezar-HP\cezar" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Local" id="3740fb54-692b-4acc-b3b6-d647341643d6">
+    <Description>These are default test settings for a local test run.</Description>
+    <Deployment enabled="false" runDeploymentRoot="cezar_CEZAR-HP 2012-07-27 15_37_08">
+      <DeploymentItem filename="C:\Users\cezar\MvcAA\MvcAutoAuction1\packages\EntityFramework.4.1.10331.0\lib\EntityFramework.dll" />
+      <DeploymentItem filename="C:\Users\cezar\MvcAA\MvcAutoAuction1\MvcAutoAuction\bin\MvcAutoAuction.dll" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2012-07-27T15:37:08.2879385+01:00" queuing="2012-07-27T15:37:08.3929445+01:00" start="2012-07-27T15:37:08.4119456+01:00" finish="2012-07-27T15:37:08.9289752+01:00" />
+  <ResultSummary outcome="Failed">
+    <Counters total="2" executed="2" passed="1" error="0" failed="1" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="BiddingForm" storage="c:\users\cezar\mvcaa\mvcautoauction1\mvcautoauction.tests\bin\debug\mvcautoauction.tests.dll" id="b8c21f3d-abff-3ddb-717f-b2a6949fc9d0">
+      <Execution id="1c885faf-ad9d-42b3-80df-6ef6d8e02d5f" />
+      <TestMethod codeBase="C:/Users/cezar/MvcAA/MvcAutoAuction1/MvcAutoAuction.Tests/bin/Debug/MvcAutoAuction.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="MvcAutoAuction.Tests.BidControllerTest, MvcAutoAuction.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="BiddingForm" />
+    </UnitTest>
+    <UnitTest name="Index" storage="c:\users\cezar\mvcaa\mvcautoauction1\mvcautoauction.tests\bin\debug\mvcautoauction.tests.dll" id="bbd51bd4-4882-4898-ceca-de2d57b86e12">
+      <Execution id="586872ae-53e5-45c6-9f56-0ac269752e4b" />
+      <TestMethod codeBase="C:/Users/cezar/MvcAA/MvcAutoAuction1/MvcAutoAuction.Tests/bin/Debug/MvcAutoAuction.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="MvcAutoAuction.Tests.ShoppingCartControllerTest, MvcAutoAuction.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Index" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="b8c21f3d-abff-3ddb-717f-b2a6949fc9d0" executionId="1c885faf-ad9d-42b3-80df-6ef6d8e02d5f" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="bbd51bd4-4882-4898-ceca-de2d57b86e12" executionId="586872ae-53e5-45c6-9f56-0ac269752e4b" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="1c885faf-ad9d-42b3-80df-6ef6d8e02d5f" testId="b8c21f3d-abff-3ddb-717f-b2a6949fc9d0" testName="BiddingForm" computerName="CEZAR-HP" duration="00:00:00.1164289" startTime="2012-07-27T15:37:08.4469476+01:00" endTime="2012-07-27T15:37:08.8639715+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="1c885faf-ad9d-42b3-80df-6ef6d8e02d5f">
+    </UnitTestResult>
+    <UnitTestResult executionId="586872ae-53e5-45c6-9f56-0ac269752e4b" testId="bbd51bd4-4882-4898-ceca-de2d57b86e12" testName="Index" computerName="CEZAR-HP" duration="00:00:00.0282782" startTime="2012-07-27T15:37:08.8729720+01:00" endTime="2012-07-27T15:37:08.9059739+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="586872ae-53e5-45c6-9f56-0ac269752e4b">
+      <Output>
+        <ErrorInfo>
+          <Message>Test method MvcAutoAuction.Tests.ShoppingCartControllerTest.Index threw exception: 
+System.NullReferenceException: Object reference not set to an instance of an object.</Message>
+          <StackTrace>    at MvcAutoAuction.logic.ShoppingCart.GetCartId(HttpContextBase context) in C:\Users\cezar\MvcAA\MvcAutoAuction1\MvcAutoAuction\logic\ShoppingCart.cs:line 156
+   at MvcAutoAuction.logic.ShoppingCart.GetCart(HttpContextBase context) in C:\Users\cezar\MvcAA\MvcAutoAuction1\MvcAutoAuction\logic\ShoppingCart.cs:line 20
+   at MvcAutoAuction.Controllers.ShoppingCartController.Index() in C:\Users\cezar\MvcAA\MvcAutoAuction1\MvcAutoAuction\Controllers\ShoppingCartController.cs:line 18
+   at MvcAutoAuction.Tests.ShoppingCartControllerTest.Index() in C:\Users\cezar\MvcAA\MvcAutoAuction1\MvcAutoAuction.Tests\ShoppingCartControllerTest.cs:line 19
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+  </Results>
+</TestRun>

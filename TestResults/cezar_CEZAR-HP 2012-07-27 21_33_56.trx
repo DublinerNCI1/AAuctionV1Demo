@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="74bc84d8-2f03-4d73-8705-18d696f4fd27" name="cezar@CEZAR-HP 2012-07-27 21:33:56" runUser="cezar-HP\cezar" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Local" id="3740fb54-692b-4acc-b3b6-d647341643d6">
+    <Description>These are default test settings for a local test run.</Description>
+    <Deployment enabled="false" runDeploymentRoot="cezar_CEZAR-HP 2012-07-27 21_33_56">
+      <DeploymentItem filename="C:\Users\cezar\MvcAA\MvcAutoAuction1\packages\EntityFramework.4.1.10331.0\lib\EntityFramework.dll" />
+      <DeploymentItem filename="C:\Users\cezar\MvcAA\MvcAutoAuction1\MvcAutoAuction\bin\MvcAutoAuction.dll" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2012-07-27T21:33:56.0241334+01:00" queuing="2012-07-27T21:33:56.1771422+01:00" start="2012-07-27T21:33:56.1961433+01:00" finish="2012-07-27T21:33:56.8291795+01:00" />
+  <ResultSummary outcome="Completed">
+    <Counters total="4" executed="4" passed="4" error="0" failed="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="CatalogDALConstructorTest" storage="c:\users\cezar\mvcaa\mvcautoauction1\mvcautoauction.tests\bin\debug\mvcautoauction.tests.dll" id="9c977e4c-fc8d-15f6-451c-b0933f711ce1">
+      <Execution id="f2adb124-480e-46bc-b052-04dcd1d26557" />
+      <TestMethod codeBase="C:/Users/cezar/MvcAA/MvcAutoAuction1/MvcAutoAuction.Tests/bin/Debug/MvcAutoAuction.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="MvcAutoAuction.Tests.CatalogManagerDALTest, MvcAutoAuction.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="CatalogDALConstructorTest" />
+    </UnitTest>
+    <UnitTest name="HomeDALConstructorTest" storage="c:\users\cezar\mvcaa\mvcautoauction1\mvcautoauction.tests\bin\debug\mvcautoauction.tests.dll" id="59059c7f-cf7b-ff78-05ce-474a4dc7e7fc">
+      <Execution id="8b8fe8be-b8de-46f4-863f-b5063360b9dd" />
+      <TestMethod codeBase="C:/Users/cezar/MvcAA/MvcAutoAuction1/MvcAutoAuction.Tests/bin/Debug/MvcAutoAuction.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="MvcAutoAuction.Tests.HomeDALTest, MvcAutoAuction.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="HomeDALConstructorTest" />
+    </UnitTest>
+    <UnitTest name="BiddingForm" storage="c:\users\cezar\mvcaa\mvcautoauction1\mvcautoauction.tests\bin\debug\mvcautoauction.tests.dll" id="b8c21f3d-abff-3ddb-717f-b2a6949fc9d0">
+      <Execution id="7422440c-23df-4b01-bb94-9e937fdbd33a" />
+      <TestMethod codeBase="C:/Users/cezar/MvcAA/MvcAutoAuction1/MvcAutoAuction.Tests/bin/Debug/MvcAutoAuction.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="MvcAutoAuction.Tests.BidControllerTest, MvcAutoAuction.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="BiddingForm" />
+    </UnitTest>
+    <UnitTest name="CatalogDALConstructorTest" storage="c:\users\cezar\mvcaa\mvcautoauction1\mvcautoauction.tests\bin\debug\mvcautoauction.tests.dll" id="99d3826e-9cf8-f798-7943-f58407047fac">
+      <Execution id="c8583002-9ccf-404f-9b58-97ab330e98da" />
+      <TestMethod codeBase="C:/Users/cezar/MvcAA/MvcAutoAuction1/MvcAutoAuction.Tests/bin/Debug/MvcAutoAuction.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="MvcAutoAuction.Tests.CatalogDALTest, MvcAutoAuction.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="CatalogDALConstructorTest" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="59059c7f-cf7b-ff78-05ce-474a4dc7e7fc" executionId="8b8fe8be-b8de-46f4-863f-b5063360b9dd" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="99d3826e-9cf8-f798-7943-f58407047fac" executionId="c8583002-9ccf-404f-9b58-97ab330e98da" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="9c977e4c-fc8d-15f6-451c-b0933f711ce1" executionId="f2adb124-480e-46bc-b052-04dcd1d26557" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="b8c21f3d-abff-3ddb-717f-b2a6949fc9d0" executionId="7422440c-23df-4b01-bb94-9e937fdbd33a" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="8b8fe8be-b8de-46f4-863f-b5063360b9dd" testId="59059c7f-cf7b-ff78-05ce-474a4dc7e7fc" testName="HomeDALConstructorTest" computerName="CEZAR-HP" duration="00:00:00.1312073" startTime="2012-07-27T21:33:56.2151444+01:00" endTime="2012-07-27T21:33:56.6651701+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="8b8fe8be-b8de-46f4-863f-b5063360b9dd">
+    </UnitTestResult>
+    <UnitTestResult executionId="c8583002-9ccf-404f-9b58-97ab330e98da" testId="99d3826e-9cf8-f798-7943-f58407047fac" testName="CatalogDALConstructorTest" computerName="CEZAR-HP" duration="00:00:00.0007690" startTime="2012-07-27T21:33:56.6681703+01:00" endTime="2012-07-27T21:33:56.6731706+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="c8583002-9ccf-404f-9b58-97ab330e98da">
+    </UnitTestResult>
+    <UnitTestResult executionId="f2adb124-480e-46bc-b052-04dcd1d26557" testId="9c977e4c-fc8d-15f6-451c-b0933f711ce1" testName="CatalogDALConstructorTest" computerName="CEZAR-HP" duration="00:00:00.0005279" startTime="2012-07-27T21:33:56.6771708+01:00" endTime="2012-07-27T21:33:56.6811710+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="f2adb124-480e-46bc-b052-04dcd1d26557">
+    </UnitTestResult>
+    <UnitTestResult executionId="7422440c-23df-4b01-bb94-9e937fdbd33a" testId="b8c21f3d-abff-3ddb-717f-b2a6949fc9d0" testName="BiddingForm" computerName="CEZAR-HP" duration="00:00:00.1180694" startTime="2012-07-27T21:33:56.6821711+01:00" endTime="2012-07-27T21:33:56.8041781+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="7422440c-23df-4b01-bb94-9e937fdbd33a">
+    </UnitTestResult>
+  </Results>
+</TestRun>
